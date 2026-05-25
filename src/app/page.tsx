@@ -10,7 +10,7 @@ const features = [
     icon: FiFileText,
     title: "Document Summarizer",
     description: "Paste any long text, article, or document and get concise, intelligent summaries with key takeaways and bullet points.",
-    color: "#0ea5e9",
+    color: "#a855f7",
     tag: "NLP",
   },
   {
@@ -18,7 +18,7 @@ const features = [
     icon: FiGlobe,
     title: "Smart Translator",
     description: "Translate text between 30+ languages with context-aware AI translation. Preserves tone, idioms, and technical terms.",
-    color: "#22c55e",
+    color: "#ec4899",
     tag: "Translation",
   },
   {
@@ -26,7 +26,7 @@ const features = [
     icon: FiSearch,
     title: "Key Info Extractor",
     description: "Extract structured data from unstructured text — names, dates, emails, addresses, key facts, and custom entities.",
-    color: "#f59e0b",
+    color: "#f97316",
     tag: "Extraction",
   },
   {
@@ -34,7 +34,7 @@ const features = [
     icon: FiMessageCircle,
     title: "Document Q&A",
     description: "Paste a document and ask questions about it. AI reads the full context and gives precise answers with references.",
-    color: "#ef4444",
+    color: "#06b6d4",
     tag: "Reasoning",
   },
 ];

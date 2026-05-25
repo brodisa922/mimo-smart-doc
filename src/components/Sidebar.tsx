@@ -19,7 +19,7 @@ export default function Sidebar() {
     <aside className="fixed left-0 top-0 h-screen w-64 bg-[var(--bg-secondary)] border-r border-[var(--border-color)] flex flex-col z-50">
       <div className="p-6 border-b border-[var(--border-color)]">
         <Link href="/" className="flex items-center gap-3 no-underline">
-          <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-[#0ea5e9] to-[#06b6d4] flex items-center justify-center">
+          <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-[#a855f7] to-[#7c3aed] flex items-center justify-center">
             <FiFileText className="text-white text-lg" />
           </div>
           <div>
@@ -42,7 +42,7 @@ export default function Sidebar() {
               href={item.href}
               className={`flex items-center gap-3 px-4 py-3 rounded-xl transition-all duration-200 no-underline ${
                 isActive
-                  ? "bg-gradient-to-r from-[#0ea5e9]/20 to-[#06b6d4]/10 text-[var(--accent-secondary)] border border-[var(--accent-primary)]/30"
+                  ? "bg-gradient-to-r from-[#a855f7]/20 to-[#7c3aed]/10 text-[var(--accent-secondary)] border border-[var(--accent-primary)]/30"
                   : "text-[var(--text-secondary)] hover:bg-[var(--bg-hover)] hover:text-[var(--text-primary)]"
               }`}
             >

@@ -44,8 +44,8 @@ export default function SummarizePage() {
       <main className="ml-64 flex-1 p-8">
         <div className="mb-8">
           <div className="flex items-center gap-3 mb-2">
-            <div className="w-10 h-10 rounded-xl bg-[#0ea5e9]/20 flex items-center justify-center">
-              <FiFileText className="text-[#0ea5e9] text-lg" />
+            <div className="w-10 h-10 rounded-xl bg-[#a855f7]/20 flex items-center justify-center">
+              <FiFileText className="text-[#a855f7] text-lg" />
             </div>
             <h1 className="text-2xl font-bold">Document Summarizer</h1>
           </div>

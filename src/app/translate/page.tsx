@@ -55,8 +55,8 @@ export default function TranslatePage() {
       <main className="ml-64 flex-1 p-8">
         <div className="mb-8">
           <div className="flex items-center gap-3 mb-2">
-            <div className="w-10 h-10 rounded-xl bg-[#22c55e]/20 flex items-center justify-center">
-              <FiGlobe className="text-[#22c55e] text-lg" />
+            <div className="w-10 h-10 rounded-xl bg-[#ec4899]/20 flex items-center justify-center">
+              <FiGlobe className="text-[#ec4899] text-lg" />
             </div>
             <h1 className="text-2xl font-bold">Smart Translator</h1>
           </div>

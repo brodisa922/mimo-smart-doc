@@ -52,8 +52,8 @@ export default function ExtractPage() {
       <main className="ml-64 flex-1 p-8">
         <div className="mb-8">
           <div className="flex items-center gap-3 mb-2">
-            <div className="w-10 h-10 rounded-xl bg-[#f59e0b]/20 flex items-center justify-center">
-              <FiSearch className="text-[#f59e0b] text-lg" />
+            <div className="w-10 h-10 rounded-xl bg-[#f97316]/20 flex items-center justify-center">
+              <FiSearch className="text-[#f97316] text-lg" />
             </div>
             <h1 className="text-2xl font-bold">Key Info Extractor</h1>
           </div>

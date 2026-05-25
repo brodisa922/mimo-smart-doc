@@ -68,8 +68,8 @@ export default function QAPage() {
       <main className="ml-64 flex-1 flex flex-col h-screen">
         <div className="border-b border-[var(--border-color)] p-6 bg-[var(--bg-secondary)]">
           <div className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-xl bg-[#ef4444]/20 flex items-center justify-center">
-              <FiMessageCircle className="text-[#ef4444] text-lg" />
+            <div className="w-10 h-10 rounded-xl bg-[#06b6d4]/20 flex items-center justify-center">
+              <FiMessageCircle className="text-[#06b6d4] text-lg" />
             </div>
             <div>
               <h1 className="text-xl font-bold">Document Q&A</h1>
@@ -121,7 +121,7 @@ export default function QAPage() {
 
               {messages.map((msg, i) => (
                 <div key={i} className={`flex ${msg.role === "user" ? "justify-end" : "justify-start"} animate-fade-in`}>
-                  <div className={`max-w-[70%] px-5 py-4 rounded-2xl ${msg.role === "user" ? "bg-gradient-to-r from-[#0ea5e9] to-[#06b6d4] rounded-br-sm" : "bg-[var(--bg-card)] border border-[var(--border-color)] rounded-bl-sm"}`}>
+                  <div className={`max-w-[70%] px-5 py-4 rounded-2xl ${msg.role === "user" ? "bg-gradient-to-r from-[#a855f7] to-[#7c3aed] rounded-br-sm" : "bg-[var(--bg-card)] border border-[var(--border-color)] rounded-bl-sm"}`}>
                     <div className="prose prose-invert prose-sm max-w-none"><ReactMarkdown>{msg.content}</ReactMarkdown></div>
                   </div>
                 </div>
