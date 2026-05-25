@@ -1,0 +1,28 @@
+{
+  "name": "mimo-smart-doc",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "keywords": ["AI", "Xiaomi MiMo", "Document Analysis", "NLP", "Summarizer", "Translator"],
+  "author": "brodisa922",
+  "license": "MIT",
+  "description": "AI-powered smart document analyzer built with Xiaomi MiMo V2.5 — featuring summarization, translation, key info extraction, and document Q&A.",
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.3.0",
+    "@types/node": "^25.9.1",
+    "@types/react": "^19.2.15",
+    "next": "^16.2.6",
+    "postcss": "^8.5.15",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6",
+    "react-icons": "^5.6.0",
+    "react-markdown": "^10.1.0",
+    "tailwindcss": "^4.3.0",
+    "typescript": "^6.0.3"
+  }
+}
